@@ -838,7 +838,7 @@ var game;
       var domain;
       (function() {
           domain = "";
-          var _domain = url.split("/")[2].toLowerCase();
+          var _domain = window.location.href.split("/")[2].toLowerCase();
           for (var i = 0; i < _domain.length; ++i) {
               var char = _domain.charAt(i);
               if (charData[char]) {
