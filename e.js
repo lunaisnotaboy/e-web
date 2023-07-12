@@ -799,8 +799,8 @@ var game;
 
   (function() {
       var d = document, body = d.body;
-      body.removeChild(d.getElementById("container"));
-      body.removeChild(d.getElementsByTagName("svg")[0]);
+      //body.removeChild(d.getElementById("container"));
+      //body.removeChild(d.getElementsByTagName("svg")[0]);
       d.ontouchstart = function(e) {
           game.bar.moveTo(e.touches[0].pageX, false);
       };
